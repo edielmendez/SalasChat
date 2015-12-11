@@ -13,9 +13,9 @@ en sala , puede enviar mensajes y algunos emoticones , ademas pude editar su nom
 - Multiples usuarios
 
 # Manual De Usuario
-- corre el proyecto en NetBeans o correr el archivo SalasChat.war que esta en la carpeta dist en un apache tomcat 8.0 o superior
+- Corre el proyecto en NetBeans o correr el archivo SalasChat.war que esta en la carpeta dist en un apache tomcat 8.0 o superior
 - Abre tu navegador en http://localhost:8084/SalaChat
-- introduce tu nombre de usuario en el modal que aparece
+- Introduce tu nombre de usuario en el modal que aparece
 - Ahora puedes enviar mensajes y emoticones
 - Crear una nueva sala, click en el boton de Nueva Sala e introducir
 
@@ -24,8 +24,9 @@ en sala , puede enviar mensajes y algunos emoticones , ademas pude editar su nom
 - Abrir el proyecto con NetBeans 8.0 o superior
 - Ejecutar el proyecto
 - Ya esta
-#Requerimietos 
-- jdk 8 de java installado
+
+# Requerimietos 
+- JDK 8 de java installado
 - NetBeans 8.0 con Apache Tomcat 8.0  instalado 
 
 #Stack de Tecnologias
