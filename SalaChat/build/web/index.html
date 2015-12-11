@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Salas de Chat</title>
+	<link rel="stylesheet" href="css/materialize.min.css">
+	<script type="text/javascript" src='js/jquery-2.1.4.min.js'></script>
+	<script type="text/javascript" src='js/materialize.min.js'></script>
+	<script type="text/javascript" src='js/script.js'></script>
+</head>
+<body>
+    
+	<nav><div class="nav-wrapper teal accent-4 z-depth-3">
+      <a href="#" class="brand-logo center" id="nombreUsuario"></a>
+      <a class="btn waves-effect waves-light" id="btnEditarNombreUsuario">Editar Nombre</a>
+  	</nav>
+	<div class="row">
+
+      <div class="col s12 m4 l3">
+      	<h4 class="card-panel teal z-depth-1">Salas Disponibles</h4>
+		<div class="collection z-depth-3" style="height:400px;overflow-y:scroll;" id="salas">
+		    <a href="#!" class="collection-item active" style="font-size:18px;">Sala1</a>
+		    <!--<a href="#!" class="collection-item" style="font-size:18px;">701</a>
+		    <a href="#!" class="collection-item" style="font-size:18px;">Chismes</a>
+		    <a href="#" class="collection-item" style="font-size:19px;">Face</a>-->
+		    
+	  	</div>
+	  	<button class="btn waves-effect waves-light" type="submit" name="action" id="bntNuevaSala">
+	  	Nueva Sala
+  		</button>
+      </div>
+
+      <div class="col s12 m8 l9" > <!-- Mensajes-->
+        <div class="card-panel hoverable">
+        	<div class="card-panel" style="height:350px;overflow-y:scroll;" id="areaMensajes">
+        		
+        		
+        	</div>
+        	<div class="input-field col s12">
+          		<input placeholder="Mensaje a enviar" id="txtMensaje" type="text" class="validate">
+          		<label for="first_name">Mensaje</label>
+        	</div>
+        	<button class="btn waves-effect waves-light" type="submit" name="action" id="btnEnviarMensaje">Enviar
+  			</button>
+  			 <a class="btn-floating btn-large waves-effect waves-light red" id="prob">:)</a>
+
+      
+        
+      	</div>
+	</div>
+	</div>
+ 
+<!--Modal Usuario-->
+
+<div id="modalPersonal" class="modal">
+	<div class="modal-content">
+			<h4>NOMBRE DE USUARIO</h4>
+			<div class="input-field col s12">
+          		<input placeholder="Nombre de Usuario" id="nombreUsuarioModal" type="text" class="validate">
+          		<label for="first_name">Usuario</label>
+        	</div>
+			<div class="modal-footer">
+				<a class="modal-action modal-close btn waves-effect btn-flat" id="btncerrarModal">Cerrar</a>
+				<button class="btn waves-effect waves-light modal-close btn-flat" type="submit" name="action" id="btnEntrarUsuario">Entrar
+    		
+  				</button>
+			</div>
+		
+	</div>
+</div>
+
+<!--Nueva Sala-->
+<div id="modalNewSala" class="modal">
+	<div class="modal-content">
+			<h4>NUEVA SALA</h4>
+			<div class="card-panel hoverable">
+				<div class="input-field col s12">
+          			<input id="txtNombreNuevaSala" type="text" class="validate">
+          			<label for="first_name">Nombre de la nueva Sala</label>
+        		</div>
+			</div>
+			<div class="modal-footer">
+				<a class="modal-action modal-close btn waves-effect btn-flat" id="btncerrarModalNuevaSala">Cancelar</a>
+				<button class="btn waves-effect waves-light modal-close" type="submit" name="action" id="btnAceptarNuevaSala">Crear Sala
+    		
+  				</button>
+			</div>
+		
+	</div>
+</div>
+
+<!--Actualizar Nombre Usuario-->
+<div id="modalActualizarNombreUser" class="modal">
+	<div class="modal-content">
+			<h4>ACTUALIZAR NOMBRE USUARIO</h4>
+			<div class="card-panel hoverable">
+				<div class="input-field col s12">
+          			<input id="txtNombreActualizadoUsuario" type="text" class="validate">
+          			<label for="first_name">Nuevo Nombre de Usuario</label>
+        		</div>
+			</div>
+			<div class="modal-footer">
+				<a class="modal-action modal-close btn waves-effect btn-flat" id="btncerrarModalActNomUsuario">Cancelar</a>
+				<button class="btn waves-effect waves-light modal-close" type="submit" name="action" id="btnChangeNombreUser">Actualizar
+    		
+  				</button>
+			</div>
+		
+	</div>
+</div>
+    
+</body>
+</html>
