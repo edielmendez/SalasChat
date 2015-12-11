@@ -27,7 +27,7 @@ en sala , puede enviar mensajes y algunos emoticones , ademas pude editar su nom
 
 # Requerimietos 
 - JDK 8 de java installado
-- NetBeans 8.0 con Apache Tomcat 8.0  instalado 
+- NetBeans 8.0 o superior con Apache Tomcat 8.0 o superior instalado 
 
 #Stack de Tecnologias
 - Lenguaje de programación Java
